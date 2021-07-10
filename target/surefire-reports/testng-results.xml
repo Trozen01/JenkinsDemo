@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12599" started-at="2021-06-26T16:18:48Z" finished-at="2021-06-26T16:19:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12599" started-at="2021-06-26T16:18:48Z" finished-at="2021-06-26T16:19:01Z">
+      <class name="demoOne.DemoTest">
+        <test-method status="PASS" signature="sum()[pri:0, instance:demoOne.DemoTest@22f71333]" name="sum" duration-ms="11821" started-at="2021-06-26T16:18:48Z" finished-at="2021-06-26T16:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- demoOne.DemoTest -->
+      <class name="ReadExcelDataStoreInHasMap.ReadExceHashMap">
+        <test-method status="PASS" signature="getTestData()[pri:0, instance:ReadExcelDataStoreInHasMap.ReadExceHashMap@13969fbe]" name="getTestData" duration-ms="743" started-at="2021-06-26T16:19:00Z" finished-at="2021-06-26T16:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+      </class> <!-- ReadExcelDataStoreInHasMap.ReadExceHashMap -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
