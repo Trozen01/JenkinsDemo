@@ -1,9 +1,10 @@
 node{
-  stage('SCM Checkout'){
+  stage('SCM Checkout'){   
    git 'https://github.com/Trozen01/JenkinsDemo'
   }
   stage('Compile-Package'){
-   sh 'mvn package'
+    def mvnHome = tool name: 'TestMaven', type: 'maven'
+    sh 'mvn package'
   }
   
 }
